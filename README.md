@@ -30,20 +30,26 @@ You will be practicing git commands and how you should use git to work on a proj
 
 7. Now pull down master, in case there were changes.  Then merge with master.  Checkout master.  And merge your new branch with master.
 
-	`git pull origin master`
-	`git merge variable-example master`
-	`git checkout master`
-	`git merge master variable-example`
+
+	```
+	git pull origin master
+	git merge variable-example master
+	git checkout master
+	git merge master variable-example
+	```
 
 8. Push your changes up to GitHub, on both branches.
 
-	`git push origin master`
-	`git push origin variable-example`
+	```
+	git push origin master
+	git push origin variable-example
+	```
 
 9.  Awesome!  You are a Git ninja!  Now, do steps 3-8 for the rest of the Core4!  The last Core4 element is missing!  Create that file yourself. :)
 
-	loops.md
-	functions.md
+	- loops.md
+	- functions.md
+	- what is the last core4 called?
 
 
 
@@ -68,7 +74,7 @@ You will be practicing git commands and how you should use git to work on a proj
 
 3. Make a change and save it.
 
-4. Add the changed files
+4. Add the changed files to the staging table.
 
 	`git add .`
 
@@ -78,11 +84,11 @@ You will be practicing git commands and how you should use git to work on a proj
 
 6. Repeat steps 4-5 until your a small day's work is done and tested.
 
-7. Pull down changes.
+7. Pull down changes from GitHub in case your team has made changes since you started working.
 
 	`git pull origin master`
 
-8. Merge your branch with any changes you pulled down from master.
+8. Merge your branch with any changes you pulled down from the master branch.
 
 	`git merge myBranch master`
 
@@ -96,8 +102,10 @@ You will be practicing git commands and how you should use git to work on a proj
 
 11. Push your changes so that others can see them.
 
-	`git push origin master`
-	`git push origin myBranch`
+	```
+	git push origin master
+	git push origin myBranch
+	```
 
 
 
@@ -129,7 +137,7 @@ The commands you will learn today are:
 
  - git commit
 
-	`git commit -m "Centers heading 1 text"
+	`git commit -m "Centers heading 1 text"`
 
 	This command will _commit_ the changes you have made.  It will create a _commit message_ that says 'Centers heading 1 text', so that people can see what you were doing.  
 
@@ -141,19 +149,19 @@ The commands you will learn today are:
 	 Master is the default branch.  But you should create and work on new branches, so that you don't inject code that is not tested into Master for other people.  Each person works on a branch.  Then you merge your branch into master when your code is tested and ready.
 
 
-  - git pull
+ - git pull
 
 	 `git pull origin branch_name`
 
 	Before you do a merge, you should pull down changes from GitHub to make sure you aren't missing any changes.  You must _pull_ before you _push_.
 
 
-  - git merge
+ - git merge
 
 	`git merge newBranch master` when you are merging master _into_ your branch (newBranch is checked out).
 	`git merge master newBranch` when you are _closing_ your branch (master is checked out).
 
-  - git push
+ - git push
 
 	`git push origin branch_name`
 
