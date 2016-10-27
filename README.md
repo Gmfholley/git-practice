@@ -33,16 +33,16 @@ You will be practicing git commands and how you should use git to work on a proj
 
 	```
 	git pull origin master
-	git merge variable-example master
+	git merge variable master
 	git checkout master
-	git merge master variable-example
+	git merge master variable
 	```
 
 8. Push your changes up to GitHub, on both branches.
 
 	```
 	git push origin master
-	git push origin variable-example
+	git push origin variable
 	```
 
 9.  Awesome!  You are a Git ninja!  Now, do steps 3-8 for the rest of the Core4!  The last Core4 element is missing!  Create that file yourself. :)
