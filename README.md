@@ -142,7 +142,7 @@ The commands you will learn today are:
 	This command will _commit_ the changes you have made.  It will create a _commit message_ that says 'Centers heading 1 text', so that people can see what you were doing.  
 
 
- - get checkout
+ - git checkout
 
 	 `git checkout -b newBranch` to create a new branch or `git checkout newBranch` if it already exists.
 
